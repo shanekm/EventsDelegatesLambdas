@@ -58,6 +58,7 @@ namespace DelegatesAndEvents
             }
         }
 
+        // With Generics
         protected virtual void OnWorkPerformedT(int hours, WorkType workType)
         {
             var del = WorkPerfomedT as EventHandler<WorkPerformedEventArgs>; // cast to delegate (since event is delegate in reallity)

@@ -23,10 +23,8 @@ namespace DelegatesAndEvents
             del1(5, WorkType.Golf);
             del2(10, WorkType.GenerateReports);
 
-            // Pass in deletage - del1 calls WorkPerformed1. It will invoke whatever was passed ie. WorkPerformed1
-            DoWorkTake2(del1);
             // Pass in deletage - del2 calls WorkPerformed2. It will invoke whatever was passed ie. WorkPerformed2
-            DoWorkTake2(del2);
+            DoWork(del2);
 
             // Adding handlers to Invocation list of Delegate1
             // Whenever del1 fires it will notify WorkPerformed2 and WorkPerformed3 as well
@@ -60,18 +58,8 @@ namespace DelegatesAndEvents
             Console.WriteLine("Work completed");
         }
 
-
         // Make WorkPerformed(x) method dynamic
-        // Take 1
-        static void DoWorkTake1()
-        {
-            // instead of hardocing i can pass in handler
-            WorkPerformed1(5, WorkType.GoToMeeting);
-        }
-
-        // Make WorkPerformed(x) method dynamic
-        // Take 2
-        static void DoWorkTake2(WorkPerformedHandler del)
+        static void DoWork(WorkPerformedHandler del)
         {
             del(5, WorkType.GenerateReports);
         }
@@ -84,29 +72,6 @@ namespace DelegatesAndEvents
         static void WorkPerformed2(int hours, WorkType type)
         {
             Console.WriteLine("WorkPerformed 2 called: {0}:{1}", hours, type);
-        }
-
-        static void WorkPerformed3(int hours, WorkType type)
-        {
-            Console.WriteLine("WorkPerformed 3 called: {0}:{1}", hours, type);
-        }
-
-        static int WorkPerformed1Ret(int hours, WorkType type)
-        {
-            Console.WriteLine("WorkPerformed 1 called: {0}:{1}", hours, type);
-            return hours +1;
-        }
-
-        static int WorkPerformed2Ret(int hours, WorkType type)
-        {
-            Console.WriteLine("WorkPerformed 2 called: {0}:{1}", hours, type);
-            return hours +2;
-        }
-
-        static int WorkPerformed3Ret(int hours, WorkType type)
-        {
-            Console.WriteLine("WorkPerformed 3 called: {0}:{1}", hours, type);
-            return hours +3;
         }
     }
 

@@ -113,7 +113,7 @@
 	Delegate Inference
 		- worker.WorkPerformed += worker_WorkPerformed; // no need for EventArgs<T>
 
-9. Anonymous Methods
+8. Anonymous Methods
 	- instead of having handler method you have a method on the same line
 	- can not attach other events
 
@@ -121,3 +121,48 @@
 	worker.WorkPerformed += delegate(object sender, EventArgs e) {
 		// do work here
 	};
+
+9. Lambdas
+	- clean up code
+	- lambda expression can be assigned to any delegate
+
+	//          (s,e) inline method parameters, '=>' is lambda operator
+	SubmitButton.Click += (s, e) // params => // lambda operator MessageBox.Show("Button clicked"); // method body
+
+	delegate int AddDelegate(int a, int b);
+
+	a. Parameters
+		delegate int AddNumbers(int a, int b);
+        AddDelegate del = (a, b) => a + b;
+        int result = del(1, 1);
+
+	b. No Parameters
+		delegate bool LogDelegate();
+		LogDelegate del = () => {
+			UpdateDb();
+			return true;
+		};
+		bool status = del;
+
+10. Action<T> 
+	- same as: delegate void LogDelegate(int a);
+	- accepts a single or more same type parameters and returns no value (one way pipeline)
+
+	// delegate that has signature that accepts one string parameter
+	Action<string> messageTarget; // delegate matches this function below
+	void ShowMessage(string message){}
+
+	// Action<T> == these two are the same
+	public delegate void DelAction(string message);
+	public Action<string> DelAction;
+
+11. Func<T, TResult>
+	- accepts a single parameter and returns a value of TResult
+
+	// Func<T, TResult> == these two are the same
+	public delegate int DelAction(string message);
+	public Func<string, int> DelAction;
+
+
+
+
