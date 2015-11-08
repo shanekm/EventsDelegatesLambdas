@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Start", "Start", "{51EF8EB8-175E-453E-89F3-594C3DE95EB2}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndEvents", "DelegatesAndEvents\DelegatesAndEvents.csproj", "{BEB23A71-5E0A-43B8-8333-B7D55B715BCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEB23A71-5E0A-43B8-8333-B7D55B715BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB23A71-5E0A-43B8-8333-B7D55B715BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB23A71-5E0A-43B8-8333-B7D55B715BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB23A71-5E0A-43B8-8333-B7D55B715BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
