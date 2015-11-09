@@ -101,6 +101,7 @@ namespace ActionTFuncT
         private static string AddStringMethod(string msg1, string msg2, Func<string, string, string> myFunc)
         {
             Console.WriteLine(myFunc(msg1, msg2));
+            return myFunc(msg1, msg2);
         }
     }
 }
