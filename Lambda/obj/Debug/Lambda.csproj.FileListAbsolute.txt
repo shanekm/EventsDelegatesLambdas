@@ -1,0 +1,6 @@
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Lambda\bin\Debug\Lambda.exe.config
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Lambda\bin\Debug\Lambda.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Lambda\bin\Debug\Lambda.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Lambda\obj\Debug\Lambda.csprojResolveAssemblyReference.cache
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Lambda\obj\Debug\Lambda.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Lambda\obj\Debug\Lambda.pdb

@@ -164,5 +164,9 @@
 	public Func<string, int> DelAction;
 
 
+12. Linq with Func<T, TResult>
+	Linq functions accept Func<T,TResult> 
 
+	// Extension method (this) of IEnumerable, returns true/false if it matches
+	public static IEnumerable<TSource> Where<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> predicate) {
 
