@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Windows.Forms;
 
 namespace Lambda
@@ -96,7 +97,8 @@ namespace Lambda
             data1.ProcessAction(2, 3, myMultiplyAction);
 
             // Func<T,TResult>
-            // Read: myAddFunc is a pointer to a function/method that takes 3 params (x,y,z) and executes method body returning string
+            // Read: myAddFunc is a pointer to a function/method 
+            // whenever invoked will take 3 params (x,y,z) and will execute method body returning string
             Func<int, int, int, string> myAddFunc = (x, y, z) =>
                 {
                     var res = x + y + z; 
@@ -133,6 +135,29 @@ namespace Lambda
             // Func<Customer, bool> - returns true 
             // c == (c) -> parameter || method body { c.City == "Chicago" }
             var customers = custs.Where((c) => c.City == "Chicago");
+
+            // 1 - Executing Func custom methods
+            Func<Customer, string> doStuff = (c) => c.Name;
+            string stringResult = GetStuff(custs, doStuff); // Calling method 
+
+            // 2 - Without calling external method
+            stringResult = GetStuff(custs, c => c.City);
+
+            // 3 - Without external method
+            // Method performs operations on List<Customer>
+            Func<IEnumerable<Customer>, string> doStuffWithoutMethod = (c) =>
+                {
+                    StringBuilder sb = new StringBuilder();
+                    foreach (Customer customer in c)
+                    {
+                        sb.AppendLine(customer.City); 
+                    }
+
+                    return sb.ToString();
+                };
+
+            // Invoke
+            stringResult = doStuffWithoutMethod(custs);
         }
 
         private static int Add(int a, int b)
@@ -143,6 +168,25 @@ namespace Lambda
         private static void Display(string message)
         {
             MessageBox.Show(message);
+        }
+
+        // Function that will return string of names or cities
+        // T = Customer
+        // Func<T => what goes in Invoke method
+        private static string GetStuff<T>(IEnumerable<T> list, Func<T, string> func)
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach (T item in list)
+            {
+                sb.AppendLine(func.Invoke(item));
+            }
+
+            return sb.ToString();
+        }
+
+        private static void GetActionStuff<T>(Action<T> action)
+        {
+            
         }
     }
 }

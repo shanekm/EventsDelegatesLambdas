@@ -163,6 +163,17 @@
 	public delegate int DelAction(string message);
 	public Func<string, int> DelAction;
 
+ ** // Read: myAddFunc is a pointer to a function/method 
+	// whenever invoked will take 3 params (x,y,z) and will execute method body returning string
+	Func<int, int, int, string> myAddFunc = (x, y, z) =>
+    {
+        var res = x + y + z; 
+        //Console.WriteLine(res.ToString()); // Need to return a string
+        return res.ToString();
+    };
+
+    // Invoke delegate
+    myAddFunc(1, 2, 3);
 
 12. Linq with Func<T, TResult>
 	Linq functions accept Func<T,TResult> 
