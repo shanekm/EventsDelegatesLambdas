@@ -188,3 +188,4 @@
     progDel.BeginInvoke(100, callback, data);
 
 	- Using BackgroundWorker class
+	- ThreadStart is a delegate

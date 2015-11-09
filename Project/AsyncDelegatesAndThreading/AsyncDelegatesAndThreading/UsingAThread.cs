@@ -1,20 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ThreadsAndDelegates
 {
     public partial class UsingAThread : Form
     {
-        delegate void StartProcessHandler();
-        int _Max;
+        private int _Max;
 
         public UsingAThread()
         {
@@ -22,16 +14,19 @@ namespace ThreadsAndDelegates
         }
 
         [STAThread]
-        static void Main()
+        private static void Main()
         {
             Application.Run(new UsingAThread());
         }
 
-        private void StartButton_Click(object sender, System.EventArgs e)
+        private void StartButton_Click(object sender, EventArgs e)
         {
             _Max = 100;
+            
+            // ThreadStart is a delegate
+            // Delegate functionality to StartProcess() method
             Thread t = new Thread(new ThreadStart(StartProcess));
-            t.Start();
+            t.Start(); // Invoke
         }
 
         private void StartProcess()
@@ -39,7 +34,7 @@ namespace ThreadsAndDelegates
             if (this.pbStatus.InvokeRequired)
             {
                 StartProcessHandler sph = new StartProcessHandler(StartProcess);
-                Invoke(sph);
+                this.Invoke(sph); // Form thread (Guid thread) will recall start process but on GUI thread
             }
             else
             {
@@ -53,5 +48,8 @@ namespace ThreadsAndDelegates
                 }
             }
         }
+
+        // Used for Guid thread check
+        private delegate void StartProcessHandler();
     }
 }
