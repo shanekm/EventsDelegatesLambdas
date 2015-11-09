@@ -1,0 +1,40 @@
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\bin\Debug\CommunicatingBetweenControls.exe.config
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\bin\Debug\CommunicatingBetweenControls.exe
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\bin\Debug\CommunicatingBetweenControls.pdb
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\MainWindow.baml
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\UserControls\EmployeesOnJob.baml
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\UserControls\JobDetails.baml
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\UserControls\Jobs.baml
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\MainWindow.g.cs
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\UserControls\EmployeesOnJob.g.cs
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\UserControls\JobDetails.g.cs
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\UserControls\Jobs.g.cs
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\App.g.cs
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls_MarkupCompile.cache
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.g.resources
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.Properties.Resources.resources
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.csproj.GenerateResource.Cache
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.exe
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.pdb
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls_MarkupCompile.lref
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.csprojResolveAssemblyReference.cache
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\bin\Debug\CommunicatingBetweenControls.exe.config
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\bin\Debug\CommunicatingBetweenControls.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\bin\Debug\CommunicatingBetweenControls.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.csprojResolveAssemblyReference.cache
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\UserControls\EmployeesOnJob.baml
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\UserControls\JobDetails.baml
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\UserControls\Jobs.baml
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\MainWindow.g.cs
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\UserControls\EmployeesOnJob.g.cs
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\UserControls\JobDetails.g.cs
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\UserControls\Jobs.g.cs
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\App.g.cs
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls_MarkupCompile.cache
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls_MarkupCompile.lref
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\MainWindow.baml
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.g.resources
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.Properties.Resources.resources
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.csproj.GenerateResource.Cache
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.exe
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.pdb

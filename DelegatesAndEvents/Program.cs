@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel;
 
 namespace DelegatesAndEvents
 {
@@ -37,15 +36,25 @@ namespace DelegatesAndEvents
             // Worker class 3 public events to wire up
             var worker = new Worker();
 
+            worker.WorkPerformed += new WorkPerformedHandlerDelEvent(worker_WorkPerformed);
+
             // Wire event
             // specifying parameter signature match/pipeline
             worker.WorkPerfomedT += new EventHandler<WorkPerformedEventArgs>(worker_WorkPerformed);
             worker.WorkCompleted += worker_WorkCompleted; // Delegate Inference
 
-            // Fire event
+            // Worker performs some task that exposes it's events. Whenever event is fired
+            // subscribers (worker_WorkPerformed, worker_WorkCompleted) will be notified
+            // Start work
             worker.DoWork(3, WorkType.GoToMeeting);
 
             Console.Read();
+        }
+
+        public static int worker_WorkPerformed(int hours, WorkType workType)
+        {
+            Console.WriteLine("Hours worked: {0}, {1}", hours, workType);
+            return hours;
         }
 
         public static void worker_WorkPerformed(object sender, WorkPerformedEventArgs e)

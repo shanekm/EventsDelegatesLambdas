@@ -1,0 +1,9 @@
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\bin\Debug\AsyncDelegatesAndThreading.exe.config
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\AsyncDelegatesAndThreading.csprojResolveAssemblyReference.cache
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\ThreadsAndDelegates.Asynchronous_Bad.resources
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\ThreadsAndDelegates.Asynchronous_Good.resources
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\ThreadsAndDelegates.Lock_Monitor.resources
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\AsyncDelegatesAndThreading.Properties.Resources.resources
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\ThreadsAndDelegates.Synchronous.resources
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\ThreadsAndDelegates.UsingAThread.resources
+D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\After\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\AsyncDelegatesAndThreading.csproj.GenerateResource.Cache

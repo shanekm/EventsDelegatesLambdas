@@ -170,3 +170,11 @@
 	// Extension method (this) of IEnumerable, returns true/false if it matches
 	public static IEnumerable<TSource> Where<TSource>(this IEnumerable<TSource> source, Func<TSource, bool> predicate) {
 
+
+Building Final Project 
+	- Mediator as Singleton that notifies listeners
+
+    // Same as writing a method yourself
+	// meaning whenever I get notified, take parameters s and e and execute method body 
+	// (s, e) => { this.DataContext = e.Job; }; == same as having method DoWork(object s, EventArgs e)
+    Mediator.GetInstance().JobChanged += (s, e) => { this.DataContext = e.Job; };

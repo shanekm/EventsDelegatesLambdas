@@ -11,7 +11,7 @@ namespace DelegatesAndEvents
         // Events - wiring with delegates
         // Find who is attached to this delegate and when
         // this event fires, find the method that delegate points to
-        // Events are really syntactic sugar sitting on top of event
+        // Events are really syntactic sugar sitting on top of delegate
         //              delegate                    event name
         public event WorkPerformedHandlerDelEvent WorkPerformed;
 
@@ -58,16 +58,6 @@ namespace DelegatesAndEvents
             }
         }
 
-        // With Generics
-        protected virtual void OnWorkPerformedT(int hours, WorkType workType)
-        {
-            var del = WorkPerfomedT as EventHandler<WorkPerformedEventArgs>; // cast to delegate (since event is delegate in reallity)
-            if (del != null) // anyone in invocation list?
-            {
-                del(this, new WorkPerformedEventArgs(hours, workType));
-            }
-        }
-
         private void OnWorkCompleted()
         {
             var del = this.WorkCompleted as EventHandler; // cast to delegate (since event is delegate in reallity)
@@ -75,6 +65,17 @@ namespace DelegatesAndEvents
             {
                 // This class with empty args
                 del(this, EventArgs.Empty);
+            }
+        }
+
+        // With Generics
+        protected virtual void OnWorkPerformedT(int hours, WorkType workType)
+        {
+            // Create a pipeline and notify
+            var del = WorkPerfomedT as EventHandler<WorkPerformedEventArgs>; // cast to delegate (since event is delegate in reallity)
+            if (del != null) // anyone in invocation list?
+            {
+                del(this, new WorkPerformedEventArgs(hours, workType));
             }
         }
     }
