@@ -17,7 +17,6 @@ D:\Wahlin Group\Courses\PluralSight\C# Events and Delegates\Module5\Code\After\A
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\bin\Debug\ThreadsAndDelegates.exe.config
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\bin\Debug\ThreadsAndDelegates.exe
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\bin\Debug\ThreadsAndDelegates.pdb
-C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\TheadsAndDelegates.csprojResolveAssemblyReference.cache
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\ThreadsAndDelegates.AsyncBad.resources
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\ThreadsAndDelegates.AsyncGood.resources
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\ThreadsAndDelegates.BackgroundWorkerDemo.resources

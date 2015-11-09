@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ThreadsAndDelegates
@@ -26,7 +20,7 @@ namespace ThreadsAndDelegates
         {
             StartButton.Enabled = false;
             CancelButton.Enabled = true;
-            OutputLabel.Text = "";
+            OutputLabel.Text = string.Empty;
             MyBackgroundWorker.RunWorkerAsync();
         }
 
@@ -53,6 +47,7 @@ namespace ThreadsAndDelegates
                     instance.ReportProgress(i);
                 }
             }
+
             return 0L;
         }
 
@@ -64,7 +59,7 @@ namespace ThreadsAndDelegates
 
         private void MyBackgroundWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
-            //Data marshalled back to UI thread so it is safe to update the progress bar here
+            // Data marshalled back to UI thread so it is safe to update the progress bar here
             progressBar1.Value = e.ProgressPercentage;
         }
 

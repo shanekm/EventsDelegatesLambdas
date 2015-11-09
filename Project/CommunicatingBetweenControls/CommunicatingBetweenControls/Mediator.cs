@@ -21,6 +21,7 @@ namespace CommunicatingBetweenControls
         // Public event to subscribe to
         public event EventHandler<JobChangedEventArgs> JobChanged;
 
+        // Gets called whenever drop down is changed
         public void OnJobChanged(object sender, Job job)
         {
             var jobChangeDelegate = JobChanged as EventHandler<JobChangedEventArgs>;

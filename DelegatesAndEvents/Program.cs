@@ -36,6 +36,7 @@ namespace DelegatesAndEvents
             // Worker class 3 public events to wire up
             var worker = new Worker();
 
+            // Without using Generic<T>
             worker.WorkPerformed += new WorkPerformedHandlerDelEvent(worker_WorkPerformed);
 
             // Wire event
