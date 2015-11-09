@@ -3,3 +3,4 @@ c:\users\shane.kmiecik\documents\visual studio 2013\Projects\EventsDelegatesLamb
 c:\users\shane.kmiecik\documents\visual studio 2013\Projects\EventsDelegatesLambdas\DelegatesAndEvents\bin\Debug\DelegatesAndEvents.pdb
 c:\users\shane.kmiecik\documents\visual studio 2013\Projects\EventsDelegatesLambdas\DelegatesAndEvents\obj\Debug\DelegatesAndEvents.exe
 c:\users\shane.kmiecik\documents\visual studio 2013\Projects\EventsDelegatesLambdas\DelegatesAndEvents\obj\Debug\DelegatesAndEvents.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\DelegatesAndEvents\obj\Debug\DelegatesAndEvents.csprojResolveAssemblyReference.cache

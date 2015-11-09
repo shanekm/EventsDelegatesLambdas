@@ -24,13 +24,10 @@ namespace Lambda
         // public Func<string, bool> logFunc;
         // public delegate bool logFunc(string message);
 
-        private static bool LogToEventLog(string message)
-        {
-            // log
-            return true;
-        }
 
+        private static bool LogToEventLog(string message) { return true; }
         private static bool LogToScreen(string message) { return true; }
+
 
         private static void Main(string[] args)
         {
@@ -62,13 +59,14 @@ namespace Lambda
             BizRulesDelegate multiplyDel = (x, y) => x * y; // same as name of external method injected to delegate constructor
             Console.WriteLine(addDel(2, 3)); // Invoke delegate
 
-            // Dynamic
+            // Dynamic - pass delegate to external method
             var data = new ProcessData();
             data.Process(2, 3, addDel);
             data.Process(2, 5, multiplyDel);
 
 
-            // Action<T> - void return, takes in one param
+            // Action<T> - void return, takes in one or more params
+            //public delegate void delAction(string message);
             Action<string> delAction = new Action<string>(Display);
             delAction("Invoking action");
 
@@ -78,16 +76,27 @@ namespace Lambda
             else
                 delAction = Console.WriteLine; // WriteLine takes in string overload
 
+            Action<string> delAction2 = (s) =>
+                {
+                    // string passed into method
+                    string msg = s;
+                    Console.WriteLine(msg);
+                };
+            delAction2.Invoke("this is test");
 
             // Action<T> ex2
-            Action<int, int> myAddAction = (x, y) => Console.WriteLine(x + y);
+            //public delegate void delAction(int x, int y);
+            Action<int, int> myAddAction = (x, y) => Console.WriteLine(x + y); // method body
             Action<int, int> myMultiplyAction = (x, y) => Console.WriteLine(x * y);
+            myAddAction(2, 3); // Invoke
 
+            // Dynamic
             var data1 = new ProcessData();
             data1.ProcessAction(2, 3, myAddAction);
             data1.ProcessAction(2, 3, myMultiplyAction);
 
             // Func<T,TResult>
+            // Read: myAddFunc is a pointer to a function/method that takes 3 params (x,y,z) and executes method body returning string
             Func<int, int, int, string> myAddFunc = (x, y, z) =>
                 {
                     var res = x + y + z; 
@@ -95,19 +104,22 @@ namespace Lambda
                     return res.ToString();
                 };
 
-            myAddFunc(1,2,3);
+            // Invoke delegate
+            myAddFunc(1, 2, 3);
 
-            // Or pass it into a method
+            // Dynamic - pass it into a method
             var data2 = new ProcessData();
             data2.ProcessFunc(2, 3, 5, myAddFunc);
 
             // Dynamic Func<T,TResult>
+            // point to a method that takes in string and returns a bool
             Func<string, bool> myLoggingFunc;
             if (1 == 1)
                 myLoggingFunc = LogToScreen;
             else
                 myLoggingFunc = LogToEventLog;
 
+            // Invoke
             bool message = myLoggingFunc("testing logging");
 
 

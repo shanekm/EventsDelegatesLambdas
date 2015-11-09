@@ -26,3 +26,4 @@ C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLamb
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\TheadsAndDelegates.csproj.GenerateResource.Cache
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\ThreadsAndDelegates.exe
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\ThreadsAndDelegates.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\AsyncDelegatesAndThreading\AsyncDelegatesAndThreading\obj\Debug\TheadsAndDelegates.csprojResolveAssemblyReference.cache

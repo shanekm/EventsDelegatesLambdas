@@ -182,7 +182,7 @@
 14. Asynchronous Delegates
 
 	// Synchronous
-	progDel(100);
+	progDel(100); or progDel.Invoke(100);
 
 	// Asynchronous - BeginInvoke - starts a new seperate Thread
     progDel.BeginInvoke(100, callback, data);
