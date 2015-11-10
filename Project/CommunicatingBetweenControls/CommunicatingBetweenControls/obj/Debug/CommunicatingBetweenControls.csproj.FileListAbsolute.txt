@@ -38,3 +38,5 @@ C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLamb
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.csproj.GenerateResource.Cache
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.exe
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\obj\Debug\CommunicatingBetweenControls.pdb
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\bin\Debug\CommunicatingBetweenControls.exe.CodeAnalysisLog.xml
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\Project\CommunicatingBetweenControls\CommunicatingBetweenControls\bin\Debug\CommunicatingBetweenControls.exe.lastcodeanalysissucceeded

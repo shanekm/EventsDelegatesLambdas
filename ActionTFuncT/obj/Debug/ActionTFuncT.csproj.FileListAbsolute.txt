@@ -4,3 +4,5 @@ C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLamb
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\ActionTFuncT\obj\Debug\ActionTFuncT.exe
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\ActionTFuncT\obj\Debug\ActionTFuncT.pdb
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\ActionTFuncT\obj\Debug\ActionTFuncT.csprojResolveAssemblyReference.cache
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\ActionTFuncT\bin\Debug\ActionTFuncT.exe.CodeAnalysisLog.xml
+C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\ActionTFuncT\bin\Debug\ActionTFuncT.exe.lastcodeanalysissucceeded
