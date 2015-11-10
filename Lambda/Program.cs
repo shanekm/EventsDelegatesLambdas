@@ -137,7 +137,7 @@ namespace Lambda
             var customers = custs.Where((c) => c.City == "Chicago");
 
             // 1 - Executing Func custom methods
-            Func<Customer, string> doStuff = (c) => c.Name;
+            Func<Customer, string> doStuff = (c) => c.Name.ToLower();
             string stringResult = GetStuff(custs, doStuff); // Calling method 
 
             // 2 - Without calling external method
@@ -158,6 +158,15 @@ namespace Lambda
 
             // Invoke
             stringResult = doStuffWithoutMethod(custs);
+
+
+            // Action<Customer, string>
+            Action<Customer, string, int> doStuffAction = (a, b, c) =>
+                {
+                    Console.WriteLine(a.Name + "-" + b + (c / 2).ToString());
+                };
+
+            doStuffAction(custs.FirstOrDefault(), "-test-", 10);
         }
 
         private static int Add(int a, int b)
