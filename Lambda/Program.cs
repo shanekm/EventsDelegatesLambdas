@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -159,6 +160,17 @@ namespace Lambda
             // Invoke
             stringResult = doStuffWithoutMethod(custs);
 
+            // 4 - get/set property Func<T>
+            var someClass = new SomeClass<IEnumerable<Customer>> { 
+                funcProperty = (c) =>
+                    {
+                        return c.FirstOrDefault().Name.ToLower();
+                    }
+            };
+
+            // Invoke
+            stringResult = someClass.funcProperty.Invoke(custs);
+            
 
             // Action<Customer, string>
             Action<Customer, string, int> doStuffAction = (a, b, c) =>
@@ -192,10 +204,10 @@ namespace Lambda
 
             return sb.ToString();
         }
+    }
 
-        private static void GetActionStuff<T>(Action<T> action)
-        {
-            
-        }
+    public class SomeClass<T>
+    {
+        public Func<T, string> funcProperty { get; set; }
     }
 }

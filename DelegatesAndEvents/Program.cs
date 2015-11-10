@@ -35,7 +35,7 @@ namespace DelegatesAndEvents
             // Attach handlers with delegates
             // Worker class 3 public events to wire up
             var worker = new Worker();
-
+            
             // Without using Generic<T>
             worker.WorkPerformed += new WorkPerformedHandlerDelEvent(worker_WorkPerformed);
 
@@ -48,6 +48,21 @@ namespace DelegatesAndEvents
             // subscribers (worker_WorkPerformed, worker_WorkCompleted) will be notified
             // Start work
             worker.DoWork(3, WorkType.GoToMeeting);
+
+
+            // Testing class
+            MyWorker w = new MyWorker();
+            w.AttachListenerToMe += MyWorkerNotified;
+            
+
+            // Using Func with Events
+            // Can't do this
+            //w.AttachListenerToMe += Action<object, EventArgs> = (o, e) =>
+            //    {
+            //        Console.WriteLine();
+            //    };
+            
+            string stringResult = w.DoWork();
 
             Console.Read();
         }
@@ -82,6 +97,11 @@ namespace DelegatesAndEvents
         static void WorkPerformed2(int hours, WorkType type)
         {
             Console.WriteLine("WorkPerformed 2 called: {0}:{1}", hours, type);
+        }
+
+        static void MyWorkerNotified(object sender, EventArgs e)
+        {
+            Console.WriteLine(sender.ToString(), e.ToString());
         }
     }
 

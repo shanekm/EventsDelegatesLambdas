@@ -79,4 +79,26 @@ namespace DelegatesAndEvents
             }
         }
     }
+
+    public class MyWorker
+    {
+        public event EventHandler<EventArgs> AttachListenerToMe;
+ 
+        // return a value from method and notify
+        public string DoWork()
+        {
+            return this.OnDoWork();
+        }
+
+        private string OnDoWork()
+        {
+            var del = AttachListenerToMe as EventHandler<EventArgs>;
+            if (del != null)
+            {
+                del.Invoke(this, new EventArgs());
+            }
+
+            return "OK";
+        }
+    }
 }
