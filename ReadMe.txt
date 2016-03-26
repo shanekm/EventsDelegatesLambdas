@@ -200,3 +200,11 @@
 
 	- Using BackgroundWorker class
 	- ThreadStart is a delegate
+
+
+Why?
+
+By defining a delegate, you are saying to the user of your class:
+	"Please feel free to put any method that match this signature here and it will be called each time my delegate is called".
+
+	-A delegate's purpose is to facilitate a call back to another method (or methods), after one has been completed, in a structured way.
