@@ -136,8 +136,9 @@ namespace Lambda
             // Func<Customer, bool> - returns true 
             // c == (c) -> parameter || method body { c.City == "Chicago" }
             var customers = custs.Where((c) => c.City == "Chicago");
+            var customers2 = custs.Select(c => c.Name);
 
-            // 1 - Executing Func custom methods
+            // 1 - Executing Func custom methods                                            // PARAMBETER (c) + // PATTERN c.Name.ToLower() ==> Func<Customer, string>
             Func<Customer, string> doStuff = (c) => c.Name.ToLower();
             string stringResult = GetStuff(custs, doStuff); // Calling method 
 
@@ -146,7 +147,7 @@ namespace Lambda
 
             // 3 - Without external method
             // Method performs operations on List<Customer>
-            Func<IEnumerable<Customer>, string> doStuffWithoutMethod = (c) =>
+            Func<IEnumerable<Customer>, string> doStuffWithoutMethod = (c) =>               // PARAMBETER (c) + // PATTERN c.Name.ToLower()
                 {
                     StringBuilder sb = new StringBuilder();
                     foreach (Customer customer in c)

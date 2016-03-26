@@ -5,3 +5,4 @@ c:\users\shane.kmiecik\documents\visual studio 2013\Projects\EventsDelegatesLamb
 c:\users\shane.kmiecik\documents\visual studio 2013\Projects\EventsDelegatesLambdas\DelegatesAndEvents\obj\Debug\DelegatesAndEvents.pdb
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\DelegatesAndEvents\bin\Debug\DelegatesAndEvents.exe.CodeAnalysisLog.xml
 C:\Users\Shane.Kmiecik\Documents\Visual Studio 2013\Projects\EventsDelegatesLambdas\DelegatesAndEvents\bin\Debug\DelegatesAndEvents.exe.lastcodeanalysissucceeded
+C:\dev\EventsDelegatesLambdas\DelegatesAndEvents\bin\Debug\DelegatesAndEvents.exe.config
